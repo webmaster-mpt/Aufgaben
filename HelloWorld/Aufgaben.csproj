@@ -55,9 +55,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassAufgabe.cs" />
+    <Compile Include="DoWhile.cs" />
+    <Compile Include="Football.cs" />
     <Compile Include="MainClass.cs" />
     <Compile Include="QuadratKubikmeterRechner.cs" />
     <Compile Include="Schaltjahrberechnung.cs" />
+    <Compile Include="ForF.cs" />
     <Compile Include="Taschenrechner.cs" />
     <Compile Include="Vorgänger-Nachfolger-Ausgabe.cs" />
     <Compile Include="WahlOMatSM.cs" />

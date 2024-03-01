@@ -14,6 +14,7 @@ namespace Aufgaben
 
         public static void Main()
         {
+            // '' = hochkommer
             int i_jahr = 0;
             
             meldung("Ihre jahre: ");
