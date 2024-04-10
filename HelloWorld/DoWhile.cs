@@ -29,12 +29,18 @@ namespace Aufgaben
             //    Console.Write(i_zahl + " ");
             //    i_zahl = i_zahl + 5;
             //} while ((i_zahl > 0) && (i_zahl < 10));
-
+            // s = v*t(v^2 / (2*a)=
             do
             {
                 Console.Write($"{i_zahl} : 2 = ");
                 i_zahl = i_zahl / 2;
-                Console.WriteLine($"{i_zahl} {i_zahl % 2}");
+                if(i_zahl != 1)
+                {
+                    Console.WriteLine($"{i_zahl} {i_zahl % 2}");
+                } else
+                {
+                    Console.WriteLine($"{1} {1}");
+                }
             } while (i_zahl != 0);
 
             Console.WriteLine();

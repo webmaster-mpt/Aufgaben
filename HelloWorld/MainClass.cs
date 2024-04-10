@@ -12,7 +12,7 @@ namespace Aufgaben
         public static void Main()
         {
             meldung("Welche Programm laufen?");
-            meldung("1. WahlOMat\n2. Quadrat-KubikMeter-Rechner\n3. Vorgänger-Nachfolger-Ausgabe\n4. Taschenrechner\n5. Schaltjahr\n6. DoWhile\n7. ForF\n8. Football\n9. End");
+            meldung("1. WahlOMat\n2. Quadrat-KubikMeter-Rechner\n3. Vorgänger-Nachfolger-Ausgabe\n4. Taschenrechner\n5. Schaltjahr\n6. DoWhile\n7. ForF\n8. Football\n9. Anhaltewegs\n10. Weinahtsbaum\n11. BruttoAndNetto\n12. End");
             int input = Convert.ToInt32(Console.ReadLine());
             while (true)
             {
@@ -44,6 +44,15 @@ namespace Aufgaben
                         Football.Main();
                         break;
                     case 9:
+                        Anhaltewegs.Main();
+                        break;
+                    case 10:
+                        Weinahtsbaum.Main();
+                        break;
+                    case 11:
+                        NettoAndBrutto.Main();
+                        break;
+                    case 12:
                         Environment.Exit(0);
                         break;
                 }
