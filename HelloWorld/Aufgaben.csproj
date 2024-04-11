@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Anhaltewegs.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="ClassAufgabe.cs" />
     <Compile Include="DoWhile.cs" />
     <Compile Include="Football.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Vorgänger-Nachfolger-Ausgabe.cs" />
     <Compile Include="WahlOMatSM.cs" />
     <Compile Include="Weinahtsbaum.cs" />
+    <Compile Include="Zinsrechner.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
