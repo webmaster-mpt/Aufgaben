@@ -14,11 +14,11 @@ namespace Aufgaben
 
             double d_prozent_kandidat1 = ((double)ui_stimmen_kandidat1 / ui_stimmen_gesamt) * 100;
             double d_prozent_kandidat2 = ((double)ui_stimmen_kandidat2 / ui_stimmen_gesamt) * 100;
-            Console.WriteLine("╔=======================================================╗");
-            Console.WriteLine("║\tDas amtliche Endergebnis der Stichwahl lautet\t║");
+            Console.WriteLine("╔=======================================================╗"     );
+            Console.WriteLine("║\tDas amtliche Endergebnis der Stichwahl lautet\t║"           );
             Console.WriteLine($"║\tfür Kandidat 1 (In Prozent): {d_prozent_kandidat1:F2}\t\t║");
             Console.WriteLine($"║\tfür Kandidat 2 (In Prozent): {d_prozent_kandidat2:F2}\t\t║");
-            Console.WriteLine("╙=======================================================╜");
+            Console.WriteLine("╙=======================================================╜"     );
             Console.ReadKey();
         }
     }

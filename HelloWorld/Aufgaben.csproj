@@ -54,13 +54,21 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Anhaltewegs.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="ClassAufgabe.cs" />
+    <Compile Include="DoWhile.cs" />
+    <Compile Include="Football.cs" />
     <Compile Include="MainClass.cs" />
+    <Compile Include="NettoAndBrutto.cs" />
     <Compile Include="QuadratKubikmeterRechner.cs" />
     <Compile Include="Schaltjahrberechnung.cs" />
+    <Compile Include="ForF.cs" />
     <Compile Include="Taschenrechner.cs" />
     <Compile Include="Vorgänger-Nachfolger-Ausgabe.cs" />
     <Compile Include="WahlOMatSM.cs" />
+    <Compile Include="Weinahtsbaum.cs" />
+    <Compile Include="Zinsrechner.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
