@@ -11,9 +11,13 @@ namespace Aufgaben
 
         public static void Main()
         {
+            Console.Clear();
             meldung("Welche Programm laufen?");
-            meldung("1. WahlOMat\n2. Quadrat-KubikMeter-Rechner\n3. Vorgänger-Nachfolger-Ausgabe\n4. Taschenrechner\n5. Schaltjahr\n6. DoWhile\n7. ForF\n8. Football\n9. Anhaltewegs\n10. Weinahtsbaum\n11. BruttoAndNetto\n12. Zinsrechner\n13. End");
+            meldung("1. WahlOMat\n2. Quadrat-KubikMeter-Rechner\n3. Vorgänger-Nachfolger-Ausgabe\n" +
+                "4. Taschenrechner\n5. Schaltjahr\n6. DoWhile\n7. ForF\n8. Football\n9. Anhaltewegs\n" +
+                "10. Weinahtsbaum\n11. BruttoAndNetto\n12. Zinsrechner\n13. Parkplatz\n14. End");
             int input = Convert.ToInt32(Console.ReadLine());
+            //int input = 15;
             while (true)
             {
                 meldung("-----------------------------------------------------------------------");
@@ -56,7 +60,13 @@ namespace Aufgaben
                         Zinsrechner.Main();
                         break;
                     case 13:
+                        Parkplatz.Main();
+                        break;
+                    case 14:
                         Environment.Exit(0);
+                        break;
+                    default:
+                        Program.Main();
                         break;
                 }
             }

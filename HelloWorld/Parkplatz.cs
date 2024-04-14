@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Globalization;
 
 namespace Aufgaben
 {
-    class Program
+    class Parkplatz
     {
         static int[] parkNum = new int[50] { 0, 0, 1, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
@@ -11,10 +10,10 @@ namespace Aufgaben
         {
             Console.WriteLine(text);
         }
-
+        
         static void nextEnter(int version)
         {
-            if (version == 1)
+            if(version == 1)
             {
                 Console.WriteLine($"Klicken Sie bitte Enter, um Menü zu sehen");
                 Console.ReadKey();
@@ -70,7 +69,7 @@ namespace Aufgaben
                     meld($"\n\n-----------------------------\n\nPlatz {platz} ist reserviert\n\n-----------------------------\n\n");
                     Console.ResetColor();
                     nextEnter(2);
-                    Statusübersicht();
+                    Statusübersicht(); 
                     Main(5);
                 }
                 else
@@ -108,7 +107,7 @@ namespace Aufgaben
             meld("LKW-Parkplatzstatus: \n");
             for (int i = 1; i < parkNum.Length; i++)
             {
-                if (parkNum[i] == 1)
+                if(parkNum[i] == 1)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write($"P-Nr: {i} = belegt ");
@@ -116,7 +115,7 @@ namespace Aufgaben
                 }
                 else
                 {
-                    if (parkNum[i] == 2)
+                    if(parkNum[i] == 2)
                     {
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.Write($"P-Nr: {i} = reserviert ");
@@ -146,7 +145,7 @@ namespace Aufgaben
         {
             int platzNum = 0;
 
-            if (wahl == 5)
+            if(wahl == 5)
             {
                 meld("\nWas wollen Sie? \n---------------------\n <1> Platz belegen\n <2> Platz reservieren\n <3> Platz frei machen\n <4> Exit\n\n---------------------");
                 wahl = Convert.ToInt32(Console.ReadLine());

@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Anhaltewegs.cs" />
+    <Compile Include="Parkplatz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ClassAufgabe.cs" />
     <Compile Include="DoWhile.cs" />
